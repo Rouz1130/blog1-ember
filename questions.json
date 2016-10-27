@@ -1,0 +1,14 @@
+{ "questions": [{
+    "author": "Bob Costas",
+    "content": "Sports",
+    "notes": "NBA Finals"
+  }, {
+    "author": "Tommy Hilfiger",
+    "content": "Fashion",
+    "notes": "Winter Jackets"
+  }, {
+    "author": "Anderson Cooper",
+    "content": "News",
+    "notes": "Election"
+  }]
+}
