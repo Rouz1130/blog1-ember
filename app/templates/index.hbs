@@ -1,8 +1,14 @@
-<h1>Fashion Blog</h1>
+<h1>Question and Answer Board</h1>
 
-Stay Fresh!, with the latest trends in fashion for both Men and Women
+Ask a Quesiton and let Trolls repsones to your Answer!
 <br>
 <br>
+
+<ul>
+  {{#each model as |questions|}}
+    <li>{{questions.author}}'s' {{questions.content}} in {{questions.notes}}</li>
+  {{/each}}
+</ul>
 
 {{#link-to 'about'}} About {{/link-to}}
 <br>
