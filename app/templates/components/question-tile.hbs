@@ -1,3 +1,10 @@
 <li>
-  {{questions.question}}'s' {{questions.answer}} in {{questions.author}}
+  {{questions.author}'s' {{questions.question}} in
+    {{#if isAnswerShowing}}
+    <p>
+      {{questions.answer}}
+    </p>
+    {{else}}
+    <button {{action 'answerShow'}}>View Answer</button>
+    {{/if}}
 </li>

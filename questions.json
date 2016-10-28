@@ -1,14 +1,14 @@
 { "questions": [{
-  "question": "Who will win the NBA finals",
-    "answer": "Warriors",
-    "author": "Bob Costas"
+    "author": "Bob Costas",
+    "question": "Who will win the NBA Finals",
+    "answer": "Warriors"
   }, {
-    "question": "What is in fashion",
-    "answer": "Winter Coates",
-    "author": "Tommy Hilfiger"
+    "author": "Tommy Hilfiger",
+    "question": "Whats the best Jacket",
+    "answer": "Bomber"
   }, {
-    "question": "Who will win the election",
-    "answer": "Miss. Clinton",
-    "author": "Anderson Cooper"
+    "author": "Anderson Cooper",
+    "question": "Who will win the Election",
+    "answer": "Hillary Clinton"
   }]
 }
